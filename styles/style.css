@@ -61,14 +61,89 @@ body {
 
 
 /* main section */
-/* 
+
 .m1h3 {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    padding-top: 178px;
 }
- */
+
+.m1mp {
+
+    width: 594px;
+    margin: auto;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.three-flower {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    gap: 24px;
+    margin: auto;
+}
+
+.flower1 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.flower-image-1 {
+    width: 310px;
+    height: 428px;
+    padding-top: 110px;
+    padding-left: 60px;
+}
+
+.flower2 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-image-2 {
+    width: 370px;
+    height: 370px;
+    padding-top: 165px;
+    padding-left: 60px;
+}
+
+
+.flower3 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+.flower-image-3 {
+    width: 314px;
+    height: 471px;
+    padding-top: 65px;
+    padding-left: 60px;
+}
+
+
+.Pink-Flower-Tree{
+    padding-bottom: 300px;
+    padding-left: 150px;
+
+}
+
+
 
 
 
@@ -109,7 +184,7 @@ body {
 
 
 .main3-left {
-    /* display: block; */
+
     display: inline;
     /* align-items: center; */
     justify-content: center;
@@ -141,6 +216,8 @@ body {
 
 
 .main-four {
+    width: 70%;
+    margin: auto;
     margin-top: 130px;
     align-items: center;
 
@@ -177,7 +254,6 @@ body {
     margin: auto;
     text-align: center;
     color: rgba(39, 39, 39, 0.60);
-    /* justify-content: center; */
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -189,12 +265,12 @@ body {
 
 
 .main-five {
-    width: 50%;
+    width: 70%;
     margin: auto;
     height: 449px;
     border-radius: 8px;
     background-image: url('Rectangle\ 9.png');
-    padding-bottom: 128px;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -232,6 +308,7 @@ body {
     border-radius: 8px;
     background: #FFF;
     border: none;
+    padding-left: 20px;
 
 }
 
@@ -241,12 +318,13 @@ body {
 /* footer section */
 
 .footer {
+    margin-top: 128px;
     width: 100%;
     height: 449px;
     background-color: #111010;
     color: white;
     padding-top: 128px;
-    margin: auto;
+
 }
 
 .flowershop {
