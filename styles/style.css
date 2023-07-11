@@ -156,8 +156,40 @@ body {
     margin: 240px;
 }
 
-.icon{
+.icon {
     align-items: center;
+}
+
+/* my optional section */
+
+.optional {
+    border-radius: 8px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.wc {
+    color: #ECF1F7;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.p1-11 {
+    width: 594px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+
+.care-image {
+    width: 763px;
+    height: 505px;
 }
 
 
