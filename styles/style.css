@@ -60,7 +60,7 @@ body {
 
 
 
-/* main section */
+/* main section (optional)*/
 
 .m1h3 {
     color: #272727;
@@ -137,10 +137,27 @@ body {
 }
 
 
-.Pink-Flower-Tree{
+.Pink-Flower-Tree {
     padding-bottom: 300px;
     padding-left: 150px;
 
+}
+
+
+.main2 {
+    width: 70%;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 240px;
+}
+
+.icon{
+    align-items: center;
 }
 
 
@@ -168,9 +185,7 @@ body {
 
 
 
-
-
-
+/* main part */
 
 .main3 {
     margin-top: 130px;
