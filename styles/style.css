@@ -75,6 +75,7 @@ body {
 
 .main3-left {
     /* display: block; */
+    display: inline;
     /* align-items: center; */
     justify-content: center;
 }
@@ -83,6 +84,7 @@ body {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
+    margin-left: 30px;
 
 }
 
@@ -93,6 +95,11 @@ body {
 #p-2 {
     width: 594px;
     text-align: center;
+
+}
+
+.signup {
+    margin-left: 200px;
 }
 
 
@@ -132,9 +139,10 @@ body {
 .m4p {
     display: flex;
     width: 594px;
-    color: rgba(39, 39, 39, 0.60);
+    margin: auto;
     text-align: center;
-    justify-content: center;
+    color: rgba(39, 39, 39, 0.60);
+    /* justify-content: center; */
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -146,6 +154,50 @@ body {
 
 
 .main-five {
-    width: 1440px;
+    width: 50%;
+    margin: auto;
     height: 449px;
+    border-radius: 8px;
+    background-image: url();
+    border-radius: 8px;
+    background-image: url('Rectangle\ 9.png');
+    padding-bottom: 128px;
+    background-repeat: no-repeat;
+}
+
+.Get-The-Latest-Deals {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+}
+
+.coupon {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 48px;
+}
+
+.input-subscribe {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+}
+
+.subs {
+    padding: 20px 31px;
+}
+
+.email {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+
 }
